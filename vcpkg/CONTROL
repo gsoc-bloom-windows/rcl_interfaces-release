@@ -1,4 +1,0 @@
-Source: ros-dashing-composition-interfaces
-Version: 0.7.4
-Description: A package containing message and service definitions for managing composable nodes in a container process.
-Build-Depends:

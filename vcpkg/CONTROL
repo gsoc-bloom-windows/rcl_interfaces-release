@@ -1,4 +1,0 @@
-Source: ros-dashing-action-msgs
-Version: 0.7.4
-Description: Messages and service definitions common among all ROS actions.
-Build-Depends:

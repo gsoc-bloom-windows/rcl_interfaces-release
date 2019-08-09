@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-composition-interfaces</id>
-    <version>0.7.4</version>
-    <title>ros-dashing-composition-interfaces</title>
-    <authors>Shane Loretz</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>A package containing message and service definitions for managing composable nodes in a container process.</description>
+    <description>@(Description)</description>
     <dependencies>
-		<dependency id="ros-dashing-rcl-interfaces"/>
-		<dependency id="ros-dashing-rosidl-default-runtime"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>

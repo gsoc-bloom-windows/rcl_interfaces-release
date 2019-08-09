@@ -1,18 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-action-msgs</id>
-    <version>0.7.4</version>
-    <title>ros-dashing-action-msgs</title>
-    <authors>Karsten Knese</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Messages and service definitions common among all ROS actions.</description>
+    <description>@(Description)</description>
     <dependencies>
-		<dependency id="ros-dashing-builtin-interfaces"/>
-		<dependency id="ros-dashing-rosidl-default-runtime"/>
-		<dependency id="ros-dashing-unique-identifier-msgs"/>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>

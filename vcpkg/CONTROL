@@ -1,5 +1,0 @@
-Source: ros-dashing-rosgraph-msgs
-Version: 0.7.4
-Description: Messages relating to the ROS Computation Graph.
- These are generally considered to be low-level messages that end users do not interact with.
-Build-Depends:

@@ -1,0 +1,4 @@
+Source: ros-dashing-lifecycle-msgs
+Version: 0.7.4
+Description: A package containing some lifecycle related message and service definitions.
+Build-Depends:
